@@ -1,0 +1,12 @@
+# Merchant rules: LV. Patterns are matched against the normalised merchant name.
+country: LV
+fuzzy_threshold: 0.15
+rules:
+  - pattern: "rimi.*"
+    category: Groceries
+  - pattern: "maxima.*"
+    category: Groceries
+  - pattern: "daugavas maize.*"
+    category: Groceries
+  - pattern: "rigas kafija.*"
+    category: Restaurants

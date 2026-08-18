@@ -1,0 +1,10 @@
+# Merchant rules: LT. Patterns are matched against the normalised merchant name.
+country: LT
+fuzzy_threshold: 0.15
+rules:
+  - pattern: "iki.*"
+    category: Groceries
+  - pattern: "norfa.*"
+    category: Groceries
+  - pattern: "vilniaus kava.*"
+    category: Restaurants

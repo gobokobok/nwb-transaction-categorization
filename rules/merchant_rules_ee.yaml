@@ -1,0 +1,12 @@
+# Merchant rules: EE. Patterns are matched against the normalised merchant name.
+country: EE
+fuzzy_threshold: 0.15
+rules:
+  - pattern: "prisma.*"
+    category: Groceries
+  - pattern: "tallinna toidupood.*"
+    category: Groceries
+  - pattern: "tartu kohvik.*"
+    category: Restaurants
+  - pattern: "burger saar.*"
+    category: Restaurants
