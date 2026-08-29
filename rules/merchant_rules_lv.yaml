@@ -10,3 +10,7 @@ rules:
     category: Groceries
   - pattern: "rigas kafija.*"
     category: Restaurants
+  - pattern: "ziemelu degviela.*"
+    category: Fuel
+  - pattern: "vidzemes dus.*"
+    category: Fuel
