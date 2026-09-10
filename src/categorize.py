@@ -15,8 +15,14 @@ def load_rules(country: str) -> dict:
         return yaml.safe_load(f)
 
 
+LEGAL_SUFFIXES = ("sia", "uab", "ou", "as")
+
+
 def normalise(name: str) -> str:
-    return " ".join(name.lower().split())
+    """Lower case, no diacritics, no legal suffixes, single spaces."""
+    plain = unicodedata.normalize("NFKD", name.lower()).encode("ascii", "ignore").decode()
+    words = [w.strip(".,") for w in plain.split()]
+    return " ".join(w for w in words if w not in LEGAL_SUFFIXES)
 
 
 def categorize(merchant: str, country: str) -> str:

@@ -2,6 +2,9 @@
 
 Newest first. Every entry has its change ID.
 
+## CHG-2026-010 (2026-09-10)
+- Normalisation removes diacritics and legal suffixes (SIA, UAB, OÜ, AS) before matching.
+
 ## CHG-2026-009 (2026-08-29)
 - LV: rules for fuel stations (Ziemeļu Degviela, Vidzemes DUS).
 
