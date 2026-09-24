@@ -2,6 +2,9 @@
 
 Newest first. Every entry has its change ID.
 
+## CHG-2026-011 (2026-09-24)
+- EE: new category *Fast food*, split from *Restaurants* (Burger Saar moved).
+
 ## CHG-2026-010 (2026-09-10)
 - Normalisation removes diacritics and legal suffixes (SIA, UAB, OÜ, AS) before matching.
 

@@ -9,4 +9,4 @@ rules:
   - pattern: "tartu kohvik.*"
     category: Restaurants
   - pattern: "burger saar.*"
-    category: Restaurants
+    category: Fast food
