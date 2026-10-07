@@ -2,6 +2,9 @@
 
 Newest first. Every entry has its change ID.
 
+## CHG-2026-012 (2026-10-07)
+- LT: rules for e-commerce marketplaces (ShopLT Market, Baltic Parcel Shop, Kaunas Online).
+
 ## CHG-2026-011 (2026-09-24)
 - EE: new category *Fast food*, split from *Restaurants* (Burger Saar moved).
 

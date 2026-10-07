@@ -8,3 +8,9 @@ rules:
     category: Groceries
   - pattern: "vilniaus kava.*"
     category: Restaurants
+  - pattern: "shoplt market.*"
+    category: Online shopping
+  - pattern: "baltic parcel shop.*"
+    category: Online shopping
+  - pattern: "kaunas online.*"
+    category: Online shopping
