@@ -2,6 +2,9 @@
 
 Newest first. Every entry has its change ID.
 
+## CHG-2026-013 (2026-10-20)
+- Audit line for every fuzzy decision (score and margin) for the monthly rule review.
+
 ## CHG-2026-012 (2026-10-07)
 - LT: rules for e-commerce marketplaces (ShopLT Market, Baltic Parcel Shop, Kaunas Online).
 

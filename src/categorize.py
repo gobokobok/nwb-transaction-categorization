@@ -38,6 +38,11 @@ def fuzzy_category(name: str, rules: dict) -> str:
     scores = sorted(((SequenceMatcher(None, name, r["pattern"]).ratio(), r["category"]) for r in rules["rules"]),
                     reverse=True)
     best, second = scores[0], scores[1] if len(scores) > 1 else (0.0, None)
-    if best[0] >= MIN_SIMILARITY and best[0] - second[0] >= rules["fuzzy_threshold"]:
-        return best[1]
-    return "Uncategorised"
+    accepted = best[0] >= MIN_SIMILARITY and best[0] - second[0] >= rules["fuzzy_threshold"]
+    log_match(name, "fuzzy", best[0], best[0] - second[0], accepted)
+    return best[1] if accepted else "Uncategorised"
+
+
+def log_match(name: str, method: str, score: float, margin: float, accepted: bool) -> None:
+    """Audit line per fuzzy decision (method, score, margin) for the monthly rule review."""
+    print(f"match name={name!r} method={method} score={score:.3f} margin={margin:.3f} accepted={accepted}")
