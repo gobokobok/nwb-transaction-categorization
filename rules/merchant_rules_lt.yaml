@@ -1,6 +1,6 @@
 # Merchant rules: LT. Patterns are matched against the normalised merchant name.
 country: LT
-fuzzy_threshold: 0.15
+fuzzy_threshold: 0.2
 rules:
   - pattern: "iki.*"
     category: Groceries
