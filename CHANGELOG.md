@@ -2,6 +2,9 @@
 
 Newest first. Every entry has its change ID.
 
+## CHG-2026-015 (2026-11-06)
+- EE: rules for new grocery chains (Põhja Toit, Saaremaa Turg).
+
 ## CHG-2026-014 (2026-10-28)
 - LT: fuzzy-match threshold raised from 0.15 to 0.20 after false positives on new e-commerce merchants.
   October sample: false positives 37 → 4, uncategorised share 1.8% → 2.1%. LV and EE unchanged.
