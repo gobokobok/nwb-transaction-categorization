@@ -10,3 +10,7 @@ rules:
     category: Restaurants
   - pattern: "burger saar.*"
     category: Fast food
+  - pattern: "pohja toit.*"
+    category: Groceries
+  - pattern: "saaremaa turg.*"
+    category: Groceries
