@@ -2,6 +2,10 @@
 
 Newest first. Every entry has its change ID.
 
+## CHG-2026-014 (2026-10-28)
+- LT: fuzzy-match threshold raised from 0.15 to 0.20 after false positives on new e-commerce merchants.
+  October sample: false positives 37 → 4, uncategorised share 1.8% → 2.1%. LV and EE unchanged.
+
 ## CHG-2026-013 (2026-10-20)
 - Audit line for every fuzzy decision (score and margin) for the monthly rule review.
 
