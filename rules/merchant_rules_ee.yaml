@@ -10,3 +10,5 @@ rules:
     category: Restaurants
   - pattern: "burger saar.*"
     category: Fast food
+  - pattern: "saare pagarid.*"
+    category: Groceries
